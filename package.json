@@ -1,0 +1,50 @@
+{
+  "name": "@solidexpert/ngx-notifications",
+  "version": "22.0.0",
+  "description": "A simple Angular notification library. Original work by Stan van Heumen (stanvanheumen/ngx-notifications). Maintained by solidexpert-ltd.",
+  "license": "MIT",
+  "author": "Stan van Heumen",
+  "homepage": "https://github.com/solidexpert-ltd/ngx-notifications#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/solidexpert-ltd/ngx-notifications.git"
+  },
+  "bugs": {
+    "url": "https://github.com/solidexpert-ltd/ngx-notifications/issues"
+  },
+  "keywords": [
+    "angular",
+    "notifications",
+    "toast",
+    "ngx-notifications"
+  ],
+  "engines": {
+    "node": "^22.22.3 || ^24.15.0 || >=26"
+  },
+  "scripts": {
+    "build": "ng build ngx-notifications"
+  },
+  "peerDependencies": {
+    "@angular/animations": ">=22.0.0",
+    "@angular/common": ">=22.0.0",
+    "@angular/core": ">=22.0.0",
+    "rxjs": "^7.8.2"
+  },
+  "dependencies": {
+    "tslib": "^2.8.1"
+  },
+  "devDependencies": {
+    "@angular/animations": "22.3.0",
+    "@angular/build": "22.3.0",
+    "@angular/cli": "22.3.0",
+    "@angular/common": "22.3.0",
+    "@angular/compiler": "22.3.0",
+    "@angular/compiler-cli": "22.3.0",
+    "@angular/core": "22.3.0",
+    "ng-packagr": "22.3.0",
+    "rxjs": "^7.8.2",
+    "tslib": "^2.8.1",
+    "typescript": "~6.0.3",
+    "zone.js": "~0.16.3"
+  }
+}
